@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/ChuloCode-logo.jpg" type="image/jpg">
+    <link rel="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChuloCode Portfolio</title>
+</head>
+<body>
+    <!--**************************** HEADER SECTION ****************************-->
+    <header class="header">         
+        <input type="checkbox" id="open-menu" class="header__checkbox">
+        <label for="open-menu" class="header__open-nav-button" role="button">=</label>
+        <div class="header__logo-container">
+            <img class="header__logo" src="images/ChuloCode-logo-removebg.png" alt="logo image">                    
+        </div>
+        <nav class="header__nav"> 
+            <ul class="header__nav-list">
+                <li class="header__nav-item">
+                    <a class="header__link" href="#profile">About us</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__link" href="#portfolio">Portafolio</a>
+                </li>
+                <li class="header__nav-item">
+                    <a class="header__link" href="#form">Contacto</a>
+                </li>                
+            </ul>
+        </nav>
+    </header>
+
+    <!--**************************** PROFILE SECTION ****************************-->
+    <main class="profile" id="profile">
+        <div class="profile__wrapper">
+            <div class="profile__img-container">
+                <img src="images/profile-image.jpg" alt="profile image" class="profile__img">
+            </div>
+            <div class="profile__data-container">
+                <div class="profile__data">
+                    <div class="profile__description">
+                        <h1>¿Quiénes son ChuloCode?</h1>
+                        <p>
+                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur, illum asperiores. Expedita maxime, accusantium facere reiciendis dolorem aliquam qui repudiandae adipisci odio beatae perferendis quia eos vitae voluptate! Vel, fuga.
+                        </p>
+                    </div>
+                    <div class="profile__skills-container">
+                        <h2>SKILLS</h2>
+                        <ul>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--80">80%</div>
+                                </div>
+                                <span class="profile__skill-name">HTML</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="profile__skill-name">CSS</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--60">60%</div>
+                                </div>
+                                <span class="profile__skill-name">JAVA</span>
+                            </li>
+                            <li class="profile__skill">
+                                <div class="load-bar">
+                                    <div class="load-bar__bar bar--15">15%</div>
+                                </div>
+                                <span class="profile__skill-name">C</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>                
+            </div>
+        </div>
+    </main>
+
+    <!--**************************** PORTFOLIO SECTION ****************************-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="portfolio__title">SECCION DE PROYECTOS</h2>
+        <div class="portfolio__project-container">
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+            <div class="portfolio__project">
+                <h2 class="portfolio__project-name">PROYECTO</h2>
+            </div>
+        </div>
+    </section>
+
+    <!--**************************** CONTACT SECTION ****************************-->
+    <section class="form" id="form">        
+        <form class="form__form">
+            <h2>FORMULARIO DE CONTACTO</h2>
+            <fieldset>
+                <legend>INFORMACIÓN BÁSICA</legend>
+                <div class="form__input-container">
+                    <label>Nombre
+                        <input type="text" placeholder="Christofer">
+                    </label>                
+                </div>            
+                <div class="form__input-container">
+                    <label>Apellido
+                        <input type="text" placeholder="Barzola">
+                    </label>                
+                </div>            
+                <div class="form__input-container">
+                    <label>E-mail
+                        <input type="email" placeholder="ejemplo@gmail.com">
+                    </label>                
+                </div>         
+            </fieldset>   
+            <div class="form__input-container">
+                <label>Mensaje
+                    <textarea placeholder="Deja tu mensaje..."></textarea>
+                </label>                
+            </div>
+            <div class="form__input-container">
+                <input type="submit">
+            </div>   
+        </form>
+    </section>
+
+    <!--**************************** FOOTER SECTION ****************************-->
+    <footer><strong>BLAIR</strong> - @Copyright 2024</footer>
+</body>
+</html>
